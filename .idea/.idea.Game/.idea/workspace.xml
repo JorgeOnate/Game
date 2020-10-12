@@ -8,12 +8,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Grounded.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hangman.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Line.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -24,6 +26,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Grounded.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LineCreator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Line.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Hangman.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -69,6 +73,10 @@
       <workItem from="1601788535391" duration="610000" />
       <workItem from="1601833719142" duration="10870000" />
       <workItem from="1601854225949" duration="1577000" />
+      <workItem from="1602445982845" duration="5165000" />
+      <workItem from="1602529358592" duration="4228000" />
+      <workItem from="1602536339715" duration="1724000" />
+      <workItem from="1602538323371" duration="200000" />
     </task>
     <servers />
   </component>
@@ -81,13 +89,17 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1059" y="202" key="RiderGenerateDialog" timestamp="1602452546841">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1059" y="202" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602452546841" />
     <state x="1069" y="242" key="run.anything.popup" timestamp="1601847072872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1069" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601847072872" />
-    <state x="1076" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1601845346865">
+    <state x="1076" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1602452177883">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1076" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601845346865" />
+    <state x="1076" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602452177883" />
   </component>
 </project>
