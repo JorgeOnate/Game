@@ -19,6 +19,11 @@ public class Line : MonoBehaviour
         Draw();
     }
 
+    private void Start()
+    {
+        edgeCol = GetComponent<EdgeCollider2D>();
+    }
+
     void Draw()
     {
         if (Input.GetKeyDown(KeyCode.Mouse0))
@@ -63,6 +68,7 @@ public class Line : MonoBehaviour
         lineRenderer.positionCount++;
         int positionIndex = lineRenderer.positionCount - 1;
         lineRenderer.SetPosition(positionIndex,pointPos);
+        //edgeCol.points =
     }
 
 }

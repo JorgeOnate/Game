@@ -4,35 +4,29 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     
-    [SerializeField]private GameObject background;
+    
     [SerializeField]private TextMeshProUGUI word;
-    private TextMeshPro words;
+    private string currentScene;
     int cont =0;
     private Hangman hangman;
     void Start()
     {
+        currentScene = SceneManager.GetActiveScene().name;
         //background = gameObject.GetComponent<>();
-        if (background.tag == "1")
+        if (currentScene.Equals("Level1.2"))
         {
             cont = 1;
         }
-        if (background.tag == "2")
-        {
-            cont = 2;
-        }
-        if (background.tag == "3")
-        {
-            cont = 3;
-        }
-        //hangman = gameObject.AddComponent<Hangman>();
-        
-        word = gameObject.GetComponent<TextMeshProUGUI>();
 
-        //word = gameObject.GetComponent<TextMeshProUGUI>();
+        hangman = new Hangman(cont);
+
+        word = GameObject.FindWithTag("Word").GetComponent<TextMeshProUGUI>();
+
         word.text = hangman.getWord();
         
     }

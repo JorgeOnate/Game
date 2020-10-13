@@ -366,7 +366,7 @@ GameObject:
   - component: {fileID: 650911910}
   m_Layer: 5
   m_Name: TextWord
-  m_TagString: Untagged
+  m_TagString: Word
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1558,7 +1558,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21a0f04393340c64a8932926262149c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  background: {fileID: 1548990941}
   word: {fileID: 650911910}
 --- !u!1 &2044863967
 GameObject:

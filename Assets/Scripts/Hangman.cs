@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class Hangman : MonoBehaviour
+public class Hangman 
 {
     public string word;
     public int lives = 3;
