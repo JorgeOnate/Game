@@ -7,6 +7,9 @@ TagManager:
   - Ground
   - 1
   - Word
+  - Lives
+  - Attempts
+  - Letters
   layers:
   - Default
   - TransparentFX

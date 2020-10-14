@@ -8,8 +8,10 @@ public class Hangman
 {
     public string word;
     public int lives = 3;
-    public int attempts = 5;
+    public int attempts = 7;
     public int level;
+    public string letters;
+    public string guessWord;
     
     private string[] wordsLevel1 =
     {
@@ -29,11 +31,37 @@ public class Hangman
     private string[] wordsLevel3 = new string[2];
 
 
-    public string getWord()
+    public string Word
     {
-        return this.word;
+        get => word;
+        set => word = value;
     }
-    
+
+    public int Lives
+    {
+        get => lives;
+        set => lives = value;
+    }
+
+    public int Attempts
+    {
+        get => attempts;
+        set => attempts = value;
+    }
+
+    public string Letters
+    {
+        get => letters;
+        set => letters = value;
+    }
+
+    public string GuessWord
+    {
+        get => guessWord;
+        set => guessWord = value;
+    }
+
+
     public Hangman(int level)
     {
         this.level = level;
@@ -58,19 +86,36 @@ public class Hangman
         this.word = words[Random.Range(0, words.Length)];
     }
 
-    public string convertWord(string oldWord)
+    public string convertWord()
     {
+        string oldWord = this.word;
         string newWord = "";
         for (int i = 0; i < oldWord.Length; i++)
         {
             newWord = newWord + "_";
         }
+
+        this.guessWord = newWord;
         return newWord;
     }
 
-    public void GuessWord()
+    public void GuessWords(char letter)
     {
+        string tempWord = "";
         
+        for (int i = 0; i < word.Length; i++)
+        {
+            if (word[i].Equals(letter))
+            {
+                tempWord += letter;
+            }
+            else
+            {
+                tempWord += guessWord[i];
+            }
+        }
+
+        this.guessWord = tempWord;
     }
 
 }
