@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 168114294}
   - component: {fileID: 168114293}
   m_Layer: 0
-  m_Name: Sister
+  m_Name: Dad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -180,7 +180,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: b65b30c23df47e5478aa6eaa3f71734b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b6e024f272a674b42b3e9ca621ee1dbb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -199,8 +199,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 168114292}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.96, y: 1.68, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
+  m_LocalPosition: {x: -3.51, y: 0.55, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -544,7 +544,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Vacations
+  m_text: Halloween
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 21d2aabba69ccec408048a6ecce90faf, type: 2}
   m_sharedMaterial: {fileID: 5018219427631027887, guid: 21d2aabba69ccec408048a6ecce90faf, type: 2}
