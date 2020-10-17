@@ -27,7 +27,17 @@ public class Hangman
         "travel", "trip", "trunk", "umbrella", "unpack", "vacation", "vehicle", "video", "visa", "visit", "voyage", "walk", "wander", "waterfall",
         "waterpark", "weekend", "yacht", "zoo"
     };
-    private string[] wordsLevel2 = new string[2];
+    private string[] wordsLevel2 =
+    {
+        "bells","birth","blizzard","blustery","boots","bough","bow","box","angel","candle","candy","cap","card","carolers","caroling","carols","celebrate","celebration","ceremony",
+        "charity","chestnuts","chill","chilly","chimney","christmas","christmastide","cider","coal","cold","cookie","creche","decorate","decorations","display","eggnog","elf","elves",
+        "eve","evergreen","exchange","family","feast","festival","festive","fir","fireplace","firewood","frankincense","frosty","fruitcake","garland","gift","gingerbread","give","gold",
+        "goodwill","goose","green","greetings","guest","happy","holiday","holly","hope","hug","icicle","icy","ivy","jesus","jolly","joy","joyful","kings","krampus","lights","list","log",
+        "love","nativity","naughty","nice","nippy","noel","nutcracker","occasion","ornaments","package","pageant","parade","partridge","party","pie","pinecone","poinsettia","presents",
+        "receive","red","reindeer","rejoice","reunion","ribbon","ritual","Rudolph","tidings","tinsel","toboggan","togetherness","toy","tradition","tree","trimming","trips","turkey","wassail",
+        "winter","wintertime","wintry","wish","wonder","workshop","wrap","wreath"
+        
+    };
     private string[] wordsLevel3 = new string[2];
 
 

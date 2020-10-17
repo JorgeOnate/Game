@@ -10,6 +10,7 @@ TagManager:
   - Lives
   - Attempts
   - Letters
+  - Level
   layers:
   - Default
   - TransparentFX

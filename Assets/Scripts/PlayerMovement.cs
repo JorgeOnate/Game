@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -23,6 +24,7 @@ public class PlayerMovement : MonoBehaviour
         Jump();
         Run();
         Flip();
+        Restart();
     }
 
     void Run()
@@ -65,4 +67,13 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale = theScale;
         }
     }
+
+    public void Restart()
+    {
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+    }
+
 }

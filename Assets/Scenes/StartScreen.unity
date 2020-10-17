@@ -366,7 +366,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'The Story of a Hanged Man '
+  m_text: The hanged man
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ba772196d5c630f42a9869bc748033e0, type: 2}
   m_sharedMaterial: {fileID: 953424665133892211, guid: ba772196d5c630f42a9869bc748033e0, type: 2}

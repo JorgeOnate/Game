@@ -90,6 +90,10 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+        if (!word.text.Contains("_"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
         if (Input.GetKeyDown(KeyCode.A))
         {
             letter = "a";
@@ -220,8 +224,6 @@ public class GameManager : MonoBehaviour
             letter = "z";
             KeyPress(letter);
         }
-	 
-        
 
     }
 }
