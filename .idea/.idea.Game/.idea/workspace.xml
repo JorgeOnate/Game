@@ -26,11 +26,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Grounded.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LineCreator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Line.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Hangman.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EndLevel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ChageLevel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Hangman.cs" />
       </list>
     </option>
   </component>
@@ -88,6 +88,7 @@
       <workItem from="1602791173565" duration="1607000" />
       <workItem from="1602808665493" duration="1208000" />
       <workItem from="1602950877539" duration="6461000" />
+      <workItem from="1603652455765" duration="1913000" />
     </task>
     <servers />
   </component>

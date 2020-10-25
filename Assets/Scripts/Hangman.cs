@@ -38,7 +38,17 @@ public class Hangman
         "winter","wintertime","wintry","wish","wonder","workshop","wrap","wreath"
         
     };
-    private string[] wordsLevel3 = new string[2];
+    private string[] wordsLevel3 =
+    {
+        "afraid","afterlife","alarming","angel","astronaut","autumn","alien","afterlife","ballerina","bat","beast","bizarre","black","blood","bone","boo","broomstick",
+        "cackle","cadaver","candy","carve","cat","casket","chilling","cemetery","clown","cobweb","cloak","corpse", "coffin","costume","creepy","crown","dark","dead",
+        "darkness","death","devil","disguise","demon","eerie","elf","enchant","eyeball","eyepatch","fairy","fangs","fantasy","fog","frighten","fright","fear","flashlight",
+        "ghost","goblin","genie","grim","grave","gravestone","gruesome","hat","haunted","haunt","horrible","howl","horrify","imp","jumpsuit","king","lantern","magic","mask",
+        "mist","moon","mummy","morbid","mysterious","monster","midnight","ninja","night","nightmare","orange","october","ogre","owl","party","phantasm","pirate","princess",
+        "prank","queen","repulsive","rip","robot","robe","scare","scary","scarecrow","scream","shadow","shock","skeleton","skull","spell","spider","spirit","spook","strange",
+        "supernatural","sweets","superhero","tarantula","terrible","terrify","thrilling","trick","troll","tomb","unnerving","vampire","vanish","wand","web","werewolf","wig",
+        "witchcraft","warlock","weird","wicked","witch","wraith","wizardry","zombie"
+    };
 
 
     public string Word
